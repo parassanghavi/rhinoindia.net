@@ -1,0 +1,505 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.logo h1 a img {
+    display: block;
+    width: 100%;
+}
+.details p {
+    display: inline-block;
+    padding: 15px 10px;
+}
+nav ul li {
+    padding: 25px 15px;
+}
+.bannerslider img {
+    height: 750px;
+}
+.about {
+    padding: 100px 0 100px;
+}
+.product {
+    padding: 100px 0;
+}
+button h4 {
+    font-size: 32px;
+}
+.grow {
+    padding: 100px 0;
+}
+.ournetwork {
+    padding: 80px 0 10px
+}
+.ournetwork p span {
+    margin-right: 4px;
+}
+.ournetwork p {
+ 	font-size:10px;
+ }
+ .contact {
+    padding: 100px 0;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+		.logo h1 a img {
+    display: block;
+    width: 100%;
+}
+.details p {
+    display: inline-block;
+    padding: 10px 5px;
+}
+.socialmedia a i {
+    width: 30px;
+	    padding: 15px 0;
+}
+.headernavigation {
+    min-height: 113px;
+}
+.bannerslider h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+nav ul li {
+    padding: 10px 5px;
+}
+nav ul span a {
+    width: 130px;
+	height: 36px;
+    line-height: 36px;
+}
+.details {
+    width: 77%;
+    float: left;
+}
+.socialmedia {
+    width: 23%;
+    float: left;
+    text-align: left;
+}
+.bannerslider img {
+    height: 650px;
+}
+.about {
+    padding: 100px 0 100px;
+}
+.product {
+    padding: 100px 0;
+}
+button h4 {
+    font-size: 23px;
+}
+.accordion__content h5 {
+    padding-top: 50%;
+    font-size: 22px;
+}
+.accordion__content a {
+    width: 100%;
+}
+.growicon {
+    width: 20%;
+ }
+.growdata {
+    width: 80%;
+}
+.grow {
+    padding: 100px 0;
+}
+.ournetwork {
+    padding: 80px 0 10px
+}
+.ournetwork p span {
+    margin-right: 4px;
+}
+.ournetwork p {
+ 	font-size:10px;
+	margin-bottom: 10px;
+ }
+ .contact {
+    padding: 100px 0;
+}
+#map{height: 450px !important;}
+.radios p {
+    font-size: 14px;
+}
+.contactright {
+    padding: 20px 5px 40px 5px;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.bannerslider h2 {
+	line-height:100%;	
+}
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+				.logo h1 a img {
+    display: block;
+    width: 100%;
+}
+.details p {
+    display: inline-block;
+    padding: 10px 5px;
+}
+.socialmedia a i {
+    width: 30px;
+	    padding: 15px 0;
+}
+.headernavigation {
+    min-height: 113px;
+}
+.bannerslider h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+	top: 35%;	
+}
+nav ul li {
+    padding: 20px 5px;
+}
+nav ul span a {
+    width: 130px;
+	height: 36px;
+    line-height: 36px;
+}
+.details {
+    width: 77%;
+    float: left;
+}
+.socialmedia {
+    width: 23%;
+    float: left;
+    text-align: left;
+}
+.bannerslider img {
+    height: 600px;
+}
+.about {
+    padding: 50px 0;
+}
+.product {
+    padding: 50px 0;
+	min-height: 420px;
+}
+button h4 {
+    font-size: 23px;
+}
+.accordion__content h5 {
+    padding-top: 50%;
+    font-size: 22px;
+}
+.accordion__content a {
+    width: 100%;
+}
+.growicon {
+    width: 20%;
+ }
+.growdata {
+    width: 80%;
+}
+.grow {
+    padding: 50px 0;
+}
+.ournetwork {
+    padding: 50px 0 10px
+}
+.ournetwork p span {
+    margin-right: 4px;
+}
+.ournetwork p {
+ 	font-size:10px;
+	margin-bottom: 10px;
+ }
+ .contact {
+    padding: 50px 0;
+}
+#map{height: 450px !important;}
+.radios p {
+    font-size: 14px;
+}
+.contactright {
+    padding: 20px 5px 40px 5px;
+}
+span.line {
+    margin: 20px 0 20px;
+}
+.accordion__content {
+    padding: 50px 20px;
+}
+footer {
+    padding: 50px 0;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.topbar{display:none;}
+		header {
+    margin-top: 0;
+}
+.logo {
+    width: 100%;
+    float: none;
+    border-right:0;
+}
+	
+
+.nav-toggle {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.headernavigation {
+    min-height: 80px;
+}
+.logo h1 {
+    padding: 5px 0 5px 10px;
+}
+nav ul li {
+    text-align: center;
+    padding: 10px 5px;
+}
+nav ul span {
+    float: none;
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    display: inline-block;
+}
+.navigation {
+    width: 100%;
+    float: left;
+}
+.bannerslider h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+	top: 28%;	
+}
+.bannerslider img {
+    display: block;
+    width: 100%;
+    height: 470px;
+}
+.about {
+    padding: 30px 0;
+}
+.about p {
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+span.line {
+    margin: 10px 0;
+}
+.one {
+    margin: 0 auto 20px;
+}
+.rightcorner {
+    bottom: 19px;
+}
+.about h2 {
+    font-size: 30px;
+}
+.about h2 sup {
+    top: -18px;
+}
+.product {
+    padding: 30px 0;
+    min-height: 518px;
+ }
+ #btn1 button {
+    position: relative;
+    /* left: 0; */
+    /* top: 0; */
+    width: 100%;
+	margin-bottom:20px;
+}
+#btn2 button {
+    position: relative;
+    left: 0; 
+    /* top: 0; */
+    width: 100%;
+	margin-bottom:20px;
+}
+#btn3 button {
+    position: relative;
+    /* left: 0; */
+    /* top: 0; */
+    width: 100%;
+	margin-bottom:20px;
+}
+.accordion__content {
+    padding: 20px 25px;
+    margin-top: 15px;
+    width: 100%;
+}
+.accordion__content a {
+    margin: 10px auto 20px;
+}
+.accordion__content h5 {
+    padding-top: 35%;
+    font-size: 28px;
+	line-height:100%;
+}
+.grow {
+    padding: 30px 0;
+}
+.growdata {
+    width: 80%;
+	padding-top: 10px;
+}
+.growicon {
+    width: 20%;
+ }
+ .growdata h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.applynow a {
+    margin: 30px auto 20px;
+}
+.ournetwork {
+    padding: 30px 0;
+}
+.ournetwork p {
+    padding-top: 13px;
+}
+#map{height: 300px !important;}
+.contact {
+    padding: 30px 0;
+}
+.contact h2 {
+    padding-bottom: 15px;
+}
+ .nav-collapse li {
+  width: 100%;
+  display: block;
+}
+.contactright {
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+}
+footer {
+    padding: 30px 0;
+}
+.bottomarrow a i {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    line-height: 36px;
+    font-size: 21px;
+}
+.contact textarea {
+    height: 120px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.logo h1 a img {
+    width: 170px;
+    height: auto;
+}
+.headernavigation {
+    min-height: 65px;
+}
+.nav-toggle {
+    top: 6px;
+}
+nav ul li {
+    padding: 5px 5px;
+}
+nav ul span a {
+    height: 35px;
+    line-height: 34px;
+}
+.bannerslider h2 {
+    font-size: 20px;
+    top: 35%;
+}
+.bannerslider img {
+    height: 350px;
+}
+.about h2 {
+    font-size: 22px;
+}
+.about h2 sup {
+    top: -10px;
+	font-size:20px;
+}
+.product h2 {
+    font-size: 22px;
+}
+.accrodianexample {
+    padding: 0 0px;
+}
+button h4 {
+    font-size: 25px;
+}
+.innerside1 , .innerside2{
+    min-height: 200px;
+}
+.accordion__content h5 {
+    padding-top: 26%;
+    font-size: 18px;
+ }
+ .accordion__content a {
+    width: 85%;
+    height: 40px;
+    line-height: 40px;
+	font-size:16px;
+ }
+ .accordion__content h5 sup {
+    font-size: 16px;
+ }
+.accordion__content {
+    padding: 20px 10px;
+}
+.growicon i {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #fff;
+    line-height: 45px;
+    font-size: 22px;
+ }
+ .growdata {
+    padding-top: 5px;
+}
+.growdata p {
+    line-height: 24px;
+    padding-right: 0;
+}
+.applynow a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.ournetwork h2 {
+    font-size: 22px;
+}
+.ournetwork p {
+    display: block;
+}
+.contact h2 {
+    font-size: 22px;
+}
+.radios br{display:block;}
+.con-icon i {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #f4f4f4;
+    line-height: 40px;
+    font-size: 22px;
+ }
+		}
+
